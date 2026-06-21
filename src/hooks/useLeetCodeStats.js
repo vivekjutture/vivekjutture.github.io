@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import personalData from "../data/personal.json";
 
-const API_BASE = "https://leetpulse-api.vercel.app/api/leetcode";
+const API_BASE = "https://www.leetpulse-api.vercel.app/api/leetcode";
 
 let statsPromise = null;
 

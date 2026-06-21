@@ -4,7 +4,7 @@
     "title": "VelocityGuard",
     "desc": "The Over-Speed-Detection software is an Arduino-based project that utilizes IR sensors to measure object speed and trigger a servo \"speed breaker\" when the speed exceeds a predefined threshold. This lightweight project demonstrates the use of physical hardware and programming techniques, making it suitable for classroom demonstrations or small-scale prototyping applications. The system is designed to be simple and efficient, providing a practical solution for speed monitoring in various scenarios.",
     "tech": ["C++", "Arduino", "IR sensors", "Servo Motor"],
-    "github": "https://github.com/vivekjutture/VelocityGuard",
+    "github": "https://www.github.com/vivekjutture/VelocityGuard",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/VelocityGuard.webp",
     "icon": "FaShippingFast",
     "category": "Systems"
@@ -14,7 +14,7 @@
     "title": "ConsoleBanker",
     "desc": "The ConsoleBanker is a console-based application developed in C++ that simulates basic banking operations, allowing users to create and manage savings and current accounts with features like account creation, deposit, withdrawal, and balance inquiry. This project demonstrates object-oriented programming concepts and provides a beginner-friendly introduction to C++ programming, making it suitable for educational purposes or as a starting point for more advanced banking system development.",
     "tech": ["C++", "Object-Oriented Programming", "File Handling"],
-    "github": "https://github.com/vivekjutture/ConsoleBanker",
+    "github": "https://www.github.com/vivekjutture/ConsoleBanker",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/ConsoleBanker.webp",
     "icon": "BsBank2",
     "category": "Software"
@@ -24,7 +24,7 @@
     "title": "MicroBash",
     "desc": "This open-source Linux-style shell, written in C, provides a compact and educational Unix-style shell with common features for learning and small scripting tasks. The shell supports built-in commands, pipelines, redirection, background execution, variable expansion, and script execution, making it an excellent teaching aid or starting point for enhancements.",
     "tech": ["C", "Bash", "Powershell"],
-    "github": "https://github.com/vivekjutture/MicroBash",
+    "github": "https://www.github.com/vivekjutture/MicroBash",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/MicroBash.webp",
     "icon": "BsFillTerminalFill",
     "category": "Systems"
@@ -34,7 +34,7 @@
     "title": "CascadeVision",
     "desc": "The CascadeVision uses OpenCV's Haar cascade to detect faces from both images and live video feeds, providing a reliable means of facial recognition for various applications. The system offers two modes: live face detection using a camera and image face detection using a single image, with the ability to draw red rectangles around detected faces and save output images.",
     "tech": ["C++", "OpenCV", "Computer Vision", "CascadeClassifier"],
-    "github": "https://github.com/vivekjutture/CascadeVision",
+    "github": "https://www.github.com/vivekjutture/CascadeVision",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/CascadeVision.webp",
     "icon": "TbFaceId",
     "category": "AI/ML"
@@ -44,7 +44,7 @@
     "title": "AeroBook",
     "desc": "The AeroBook is a comprehensive desktop application that simulates online air ticket reservation features, including flight search and booking capabilities, with a user-friendly interface for users to manage their bookings and account information. This project provides a complete solution for searching, booking, and managing flights, with advanced filtering and passenger information collection, as well as administrative features for flight management and inventory control. The system is designed to be efficient and user-friendly, making it suitable for both customers and airline staff.",
     "tech": ["Java", "Java Swing/AWT", "MySQL", "Apache Ant", "NetBeans"],
-    "github": "https://github.com/vivekjutture/AeroBook",
+    "github": "https://www.github.com/vivekjutture/AeroBook",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/AeroBook.webp",
     "icon": "MdAirplaneTicket",
     "category": "Software"
@@ -63,7 +63,7 @@
       "Firebase",
       "Material Design"
     ],
-    "github": "https://github.com/vivekjutture/ConnectingUs",
+    "github": "https://www.github.com/vivekjutture/ConnectingUs",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/ConnectingUs.webp",
     "icon": "IoChatbubbles",
     "category": "Mobile"
@@ -85,7 +85,7 @@
       "Git",
       "GitHub"
     ],
-    "github": "https://github.com/vivekjutture/Affective-Computing",
+    "github": "https://www.github.com/vivekjutture/Affective-Computing",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/Affective%20Computing.webp",
     "icon": "FcElectronics",
     "category": "AI/ML"
@@ -104,7 +104,7 @@
       "Firebase",
       "Playstore"
     ],
-    "github": "https://github.com/vivekjutture/Dharati-The-Agri-Hub",
+    "github": "https://www.github.com/vivekjutture/Dharati-The-Agri-Hub",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/Dharati.webp",
     "icon": "PiFarmFill",
     "category": "Mobile"
@@ -115,7 +115,7 @@
     "desc": "This TicTacGo game project offers a classic gaming experience with a clean and responsive interface, allowing users to play against each other directly in their browser. The project utilizes vanilla HTML, CSS, and JavaScript, providing a smooth and seamless user experience across desktop and mobile devices.",
     "tags": ["Vanilla JS"],
     "tech": ["HTML", "JavaScript", "CSS"],
-    "github": "https://github.com/vivekjutture/TicTacGo",
+    "github": "https://www.github.com/vivekjutture/TicTacGo",
     "live": "https://vivekjutture.github.io/TicTacGo/",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/TicTacGo.webp",
     "icon": "GiTicTacToe",
@@ -133,7 +133,7 @@
       "Vite",
       "Tailwind CSS"
     ],
-    "github": "https://github.com/vivekjutture/KeyForge",
+    "github": "https://www.github.com/vivekjutture/KeyForge",
     "live": "https://vivekjutture.github.io/KeyForge/",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/KeyForge.webp",
     "icon": "FcPrivacy",
@@ -144,7 +144,7 @@
     "title": "ForexFlow",
     "desc": "The ForexFlow App is a high-performance Single Page Application (SPA) that demonstrates expertise in React hooks, API integration, and responsive UI development, allowing users to convert currencies in real-time with live exchange rates. This project showcases frontend fundamentals, API consumption, and clean UI logic.",
     "tech": ["JavaScript", "HTML", "CSS", "React", "Vite", "Tailwind CSS"],
-    "github": "https://github.com/vivekjutture/ForexFlow",
+    "github": "https://www.github.com/vivekjutture/ForexFlow",
     "live": "https://vivekjutture.github.io/ForexFlow/",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/ForexFlow.webp",
     "icon": "FcCurrencyExchange",
@@ -163,7 +163,7 @@
       "Jetpack Compose",
       "Gradle"
     ],
-    "github": "https://github.com/vivekjutture/ReFocus",
+    "github": "https://www.github.com/vivekjutture/ReFocus",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/ReFocus.webp",
     "icon": "RiFocus2Line",
     "status": "In Development",
@@ -190,7 +190,7 @@
       "BiConsumer",
       "BiFunction"
     ],
-    "github": "https://github.com/vivekjutture/Java-8-Mastery",
+    "github": "https://www.github.com/vivekjutture/Java-8-Mastery",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/Java%208%20Mastery.webp",
     "icon": "FaJava",
     "category": "Software"
@@ -210,8 +210,8 @@
       "HTML",
       "Tailwind CSS"
     ],
-    "github": "https://github.com/vivekjutture/LeetPulse",
-    "live": "https://leetpulse-api.vercel.app",
+    "github": "https://www.github.com/vivekjutture/LeetPulse",
+    "live": "https://www.leetpulse-api.vercel.app",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/LeetPulse.webp",
     "icon": "SiLeetcode",
     "category": "Web"
@@ -224,7 +224,7 @@
     "tags": ["Plan Less, Live More ❤️","android/ios","Women's day special ♀️"],
     "desc": "Planyx - Plan Less, Live More ❤️ is a unified AI life-load assistant designed to reduce the invisible mental burden of everyday planning. It seamlessly integrates meal planning, grocery tracking, and professional task prioritisation into one adaptive system. By learning user habits and adapting to dynamic schedules, Planyx intelligently handles fragmented responsibilities that often feel like a second job. Built with a focus on simplicity, empathy, and efficiency, it transforms scattered planning tasks into a cohesive, intuitive experience, helping users reclaim their time, energy, and mental space. Planyx is also a truly global, multilingual application supporting 18 languages, including 🇬🇧 English, 🇮🇳 Hindi, 🇮🇳 Marathi, 🇮🇳 Tamil, 🇮🇳 Telugu, 🇮🇳 Kannada, 🇮🇳 Malayalam, 🇮🇳 Bengali, 🇮🇳 Gujarati, 🇵🇰 Urdu, 🇫🇷 French, 🇪🇸 Spanish, 🇩🇪 German, 🇯🇵 Japanese, 🇨🇳 Chinese, 🇰🇷 Korean, 🇷🇺 Russian, and 🇸🇦 Arabic making it accessible and inclusive for users worldwide.",
     "tech": ["Flutter", "Dart", "Firebase", "Authentication", "Firestore"],
-    "github": "https://github.com/vivekjutture/Planyx",
+    "github": "https://www.github.com/vivekjutture/Planyx",
     "live": "",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/Planyx.webp",
     "icon": "FaHeart",
