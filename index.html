@@ -79,23 +79,6 @@
         "description": "Backend-focused Software Engineer building scalable, production-grade systems with Java, Spring Boot & Microservices."
       }
     </script>
-
-    <script>
-      (function () {
-        try {
-          var stored = localStorage.getItem("theme");
-          var isDark =
-            stored === "dark" ||
-            (stored === null &&
-              window.matchMedia("(prefers-color-scheme: dark)").matches);
-          var root = document.documentElement;
-          root.classList.remove("light", "dark");
-          root.classList.add(isDark ? "dark" : "light");
-          var meta = document.querySelector('meta[name="theme-color"]');
-          if (meta) meta.setAttribute("content", isDark ? "#020617" : "#fdf8f2");
-        } catch (e) {}
-      })();
-    </script>
   </head>
   <body>
     <div id="root"></div>

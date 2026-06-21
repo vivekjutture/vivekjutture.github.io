@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { ThemeContext } from "./theme-context";
 
 const getInitialTheme = () => {
@@ -21,7 +21,7 @@ export const ThemeProvider = ({ children }) => {
     return () => mediaQuery.removeEventListener("change", handleChange);
   }, []);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const root = window.document.documentElement;
     root.classList.add("theme-no-transition");
     root.classList.remove("light", "dark");
