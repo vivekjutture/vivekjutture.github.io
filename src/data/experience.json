@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "role": "Software Engineer Intern",
+    "company": "SaffronEdge",
+    "period": "Jan 2023 - Jun 2023",
+    "description": "Led the development of Krushee Sanskrutee using Flutter and Firebase, enhancing performance by 60% and user satisfaction by 30%. Built and deployed a scalable Android app on the Google Play Store, enabling 100+ farmers to buy and sell goods and services seamlessly.",
+    "icon": "FaLaptopCode",
+    "tags": ["Flutter", "Git", "GitHub", "UI/UX", "AWS", "Android Application"]
+  },
+  {
+    "id": 2,
+    "role": "Software Engineer",
+    "company": "Tata Consultancy Services (TCS)",
+    "period": "Aug 2023 - Present",
+    "description": "Engineered a Lead Enrichment Framework optimizing marketing and sales strategies by enriching product data, enabling 20% faster client targeting. Built a high-performance web application using Java, Spring Boot, Vanilla JS, improving system performance by 40% and reducing load times by 30%. Earned 4 awards in 2 years for developing and implementing solutions that optimized workflows and for improving team efficiency by 50%. Designed and implemented enterprise-grade RESTful APIs, ensuring data protection and accelerating data throughput by 45%, supporting frictionless front-end integration.",
+    "icon": "FaBriefcase",
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "JavaScript",
+      "TypeScript",
+      "Git",
+      "GitLab",
+      "HTML",
+      "CSS",
+      "MySQL",
+      "PostgreSQL",
+      "Angular",
+      "REST APIs",
+      "Microservices",
+      "Jira",
+      "Low Level Design (LLD)",
+      "High Level Design (HLD)"
+    ]
+  }
+]

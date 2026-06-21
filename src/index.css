@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+}
+
+/*
+  Semantic theme tokens.
+  Accent = primary (orange in light, sky in dark); accent-2 = gradient partner
+  (amber in light, purple in dark). These remap the violet / fuchsia utility
+  families used across the app and switch automatically via :root / .dark.
+  Dark surfaces remap the slate family (deep-purple ramp); the light page
+  background remaps gray-50 (warm cream).
+*/
+@theme inline {
+  --color-violet-300: var(--accent);
+  --color-violet-400: var(--accent);
+  --color-violet-500: var(--accent);
+  --color-violet-600: var(--accent);
+  --color-violet-700: color-mix(in srgb, var(--accent), black 12%);
+  --color-violet-800: var(--accent);
+  --color-violet-900: var(--accent);
+  --color-violet-50: color-mix(in srgb, var(--accent) 12%, white);
+  --color-violet-100: color-mix(in srgb, var(--accent) 18%, white);
+  --color-violet-200: color-mix(in srgb, var(--accent) 30%, white);
+
+  --color-fuchsia-400: var(--accent-2);
+  --color-fuchsia-500: var(--accent-2);
+  --color-fuchsia-900: var(--accent-2);
+
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --color-slate-950: #020617;
+
+  --color-gray-50: #fdf8f2;
+}
+
+/* Instant theme switch: suppress transitions during the light/dark flip. */
+.theme-no-transition,
+.theme-no-transition *,
+.theme-no-transition *::before,
+.theme-no-transition *::after {
+  transition: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+:root {
+  --bg-primary: #fdf8f2;
+  --text-primary: #1c1917;
+  --accent: #ea580c;
+  --accent-2: #f59e0b;
+  --accent-glow: rgba(234, 88, 12, 0.14);
+  --accent-glow-2: rgba(245, 158, 11, 0.1);
+  --ring-glow: rgba(234, 88, 12, 0.25);
+  color-scheme: light;
+}
+
+.dark {
+  --bg-primary: #020617;
+  --text-primary: #f8fafc;
+  --accent: #3b82f6;
+  --accent-2: #06b6d4;
+  --accent-glow: rgba(59, 130, 246, 0.1);
+  --accent-glow-2: rgba(6, 182, 212, 0.1);
+  --ring-glow: rgba(59, 130, 246, 0.3);
+  color-scheme: dark;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  width: 100%;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  background-image:
+    radial-gradient(circle at 15% 50%, var(--accent-glow) 0%, transparent 25%),
+    radial-gradient(circle at 85% 30%, var(--accent-glow-2) 0%, transparent 25%);
+  background-attachment: fixed;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+.hover-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-shine::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transform: skewX(-25deg);
+  animation: none;
+}
+
+.hover-shine:hover::after {
+  animation: shine 0.75s;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@variant dark (&:where(.dark, .dark *));

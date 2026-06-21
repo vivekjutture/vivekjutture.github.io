@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "degree": "Diploma in Computer Engineering",
+    "period": "2017 - 2020",
+    "icon": "FaSchool",
+    "tags": ["Computer Engineering"]
+  },
+  {
+    "id": 2,
+    "degree": "Bachelor of Technology in Computer Science and Engineering",
+    "period": "2020 - 2023",
+    "icon": "FaGraduationCap",
+    "tags": [
+      "Data Structures and Algorithms",
+      "Operating Systems",
+      "Database Management",
+      "Object-Oriented Programming (OOP)"
+    ]
+  }
+]

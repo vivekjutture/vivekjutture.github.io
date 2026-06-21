@@ -1,0 +1,32 @@
+{
+  "name": "Vivek J. Utture",
+  "role": "Software Engineer",
+  "roles": [
+    "Software Engineer",
+    "Backend Engineer",
+    "Java & Spring Boot",
+    "Full-Stack Developer",
+    "Problem Solver"
+  ],
+  "tagline": "Backend-focused Software Engineer building scalable, production-grade systems that handle 1M+ records with Java, Spring Boot & Microservices.",
+  "quote": "Good engineers worry about code. Great engineers worry about outcomes.",
+  "email": "vivekutture.work@gmail.com",
+  "resumeLink": "https://dub.sh/my-own-resume",
+  "image": "https://ik.imagekit.io/vivekjutture/Portfolio/Avatar.webp",
+  "leetcodeUsername": "vivekjutture",
+  "stats": [
+    { "label": "Years Experience", "value": "2.10+" },
+    { "label": "DSA Solved", "value": "1350+", "live": "solved" },
+    { "label": "LeetCode Guardian", "value": "Top 1.2%", "live": "rating" }
+  ],
+  "leetcodeFallback": {
+    "solved": "1350+",
+    "rating": "Top 1.2%"
+  },
+  "socials": {
+    "linkedin": "https://linkedin.com/in/vivekjutture",
+    "github": "https://github.com/vivekjutture",
+    "youtube": "https://yt.openinapp.co/mysterioustechs",
+    "leetcode": "https://leetcode.com/u/vivekjutture"
+  }
+}

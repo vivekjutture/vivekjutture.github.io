@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Languages",
+    "items": [
+      { "name": "C++", "icon": "devicon-cplusplus-plain colored" },
+      { "name": "Java", "icon": "devicon-java-plain colored" },
+      { "name": "HTML", "icon": "devicon-html5-plain colored" },
+      { "name": "CSS", "icon": "devicon-css3-plain colored" },
+      { "name": "JavaScript", "icon": "devicon-javascript-plain colored" },
+      { "name": "TypeScript", "icon": "devicon-typescript-plain colored" }
+    ]
+  },
+  {
+    "category": "Databases",
+    "items": [
+      { "name": "SQL", "type": "icon", "icon": "FcDatabase" },
+      { "name": "MySQL", "icon": "devicon-mysql-plain colored" },
+      { "name": "PostgreSQL", "icon": "devicon-postgresql-plain colored" },
+      { "name": "NoSQL", "type": "icon", "icon": "FcDataConfiguration" },
+      { "name": "MongoDB", "icon": "devicon-mongodb-plain colored" },
+      { "name": "Redis", "icon": "devicon-redis-plain colored" }
+    ]
+  },
+  {
+    "category": "Frameworks",
+    "items": [
+      { "name": "Spring Boot", "icon": "devicon-spring-original colored" },
+      { "name": "React.js", "icon": "devicon-react-original colored" },
+      { "name": "Tailwind CSS", "icon": "devicon-tailwindcss-original colored" }
+    ]
+  },
+  {
+    "category": "Tools & Architecture",
+    "items": [
+      { "name": "Git", "icon": "devicon-git-plain colored" },
+      { "name": "GitHub", "icon": "devicon-github-original" },
+      { "name": "GitLab", "icon": "devicon-gitlab-plain colored" },
+      { "name": "Docker", "icon": "devicon-docker-plain colored" },
+      { "name": "REST APIs", "type": "icon", "icon": "FcGlobe" },
+      { "name": "Microservices", "type": "icon", "icon": "FcMindMap" },
+      { "name": "RAG", "type": "icon", "icon": "GiArtificialIntelligence" },
+      { "name": "Jira", "icon": "devicon-jira-plain colored" },
+      { "name": "LLD", "type": "icon", "icon": "FcTreeStructure" },
+      { "name": "HLD", "type": "icon", "icon": "FcFlowChart" }
+    ]
+  },
+  {
+    "category": "Core",
+    "items": [
+      {
+        "name": "Data Structures and Algorithms",
+        "icon": "devicon-thealgorithms-plain colored"
+      },
+      { "name": "Operating Systems", "icon": "devicon-linux-plain" },
+      { "name": "Database Management", "icon": "devicon-dynamodb-plain" },
+      {
+        "name": "Object-Oriented Programming (OOP)",
+        "icon": "devicon-json-plain"
+      }
+    ]
+  }
+]

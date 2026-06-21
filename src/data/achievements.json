@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Awards and Appreciations",
+    "institution": "Tata Consultancy Services (TCS)",
+    "description": "Earned the Star of the Month award for exceptional coding contributions, improving user acquisition by 25%. Honored with Tech4HOPE Appreciation for impactful skill-based volunteering toward society.",
+    "icon": "FaTrophy"
+  },
+  {
+    "id": 2,
+    "title": "Featured at Times Square, New York",
+    "institution": "Topmate.io",
+    "period": "2025",
+    "description": "Featured by Topmate.io at Times Square, New York, among 1000 mentors empowering individuals to achieve growth.",
+    "icon": "FaStar",
+    "tags": ["Open Source", "Community"]
+  },
+  {
+    "id": 3,
+    "title": "Problem Solving Excellence",
+    "institution": "LeetCode",
+    "description": "Solved 1,350+ DSA problems across LeetCode, HackerRank & more, earning the LeetCode Guardian badge with a contest rating of 2100+ (global top 1.2%).",
+    "icon": "FaAward",
+    "tags": [
+      "LeetCode Guardian",
+      "Data Structures and Algorithms",
+      "Problem Solving",
+      "C++",
+      "Java"
+    ]
+  }
+]

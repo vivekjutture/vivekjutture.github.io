@@ -1,0 +1,235 @@
+[
+  {
+    "id": 1,
+    "title": "VelocityGuard",
+    "desc": "The Over-Speed-Detection software is an Arduino-based project that utilizes IR sensors to measure object speed and trigger a servo \"speed breaker\" when the speed exceeds a predefined threshold. This lightweight project demonstrates the use of physical hardware and programming techniques, making it suitable for classroom demonstrations or small-scale prototyping applications. The system is designed to be simple and efficient, providing a practical solution for speed monitoring in various scenarios.",
+    "tech": ["C++", "Arduino", "IR sensors", "Servo Motor"],
+    "github": "https://github.com/vivekjutture/VelocityGuard",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/VelocityGuard.webp",
+    "icon": "FaShippingFast",
+    "category": "Systems"
+  },
+  {
+    "id": 2,
+    "title": "ConsoleBanker",
+    "desc": "The ConsoleBanker is a console-based application developed in C++ that simulates basic banking operations, allowing users to create and manage savings and current accounts with features like account creation, deposit, withdrawal, and balance inquiry. This project demonstrates object-oriented programming concepts and provides a beginner-friendly introduction to C++ programming, making it suitable for educational purposes or as a starting point for more advanced banking system development.",
+    "tech": ["C++", "Object-Oriented Programming", "File Handling"],
+    "github": "https://github.com/vivekjutture/ConsoleBanker",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/ConsoleBanker.webp",
+    "icon": "BsBank2",
+    "category": "Software"
+  },
+  {
+    "id": 3,
+    "title": "MicroBash",
+    "desc": "This open-source Linux-style shell, written in C, provides a compact and educational Unix-style shell with common features for learning and small scripting tasks. The shell supports built-in commands, pipelines, redirection, background execution, variable expansion, and script execution, making it an excellent teaching aid or starting point for enhancements.",
+    "tech": ["C", "Bash", "Powershell"],
+    "github": "https://github.com/vivekjutture/MicroBash",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/MicroBash.webp",
+    "icon": "BsFillTerminalFill",
+    "category": "Systems"
+  },
+  {
+    "id": 4,
+    "title": "CascadeVision",
+    "desc": "The CascadeVision uses OpenCV's Haar cascade to detect faces from both images and live video feeds, providing a reliable means of facial recognition for various applications. The system offers two modes: live face detection using a camera and image face detection using a single image, with the ability to draw red rectangles around detected faces and save output images.",
+    "tech": ["C++", "OpenCV", "Computer Vision", "CascadeClassifier"],
+    "github": "https://github.com/vivekjutture/CascadeVision",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/CascadeVision.webp",
+    "icon": "TbFaceId",
+    "category": "AI/ML"
+  },
+  {
+    "id": 5,
+    "title": "AeroBook",
+    "desc": "The AeroBook is a comprehensive desktop application that simulates online air ticket reservation features, including flight search and booking capabilities, with a user-friendly interface for users to manage their bookings and account information. This project provides a complete solution for searching, booking, and managing flights, with advanced filtering and passenger information collection, as well as administrative features for flight management and inventory control. The system is designed to be efficient and user-friendly, making it suitable for both customers and airline staff.",
+    "tech": ["Java", "Java Swing/AWT", "MySQL", "Apache Ant", "NetBeans"],
+    "github": "https://github.com/vivekjutture/AeroBook",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/AeroBook.webp",
+    "icon": "MdAirplaneTicket",
+    "category": "Software"
+  },
+  {
+    "id": 6,
+    "title": "ConnectingUs",
+    "featured": true,
+    "summary": "Real-time Android messaging app on Firebase with authentication, contact sync & media sharing.",
+    "desc": "The ConnectingUs is a feature-rich Android messaging application built with Firebase, enabling secure real-time communication with contacts through user authentication, contact synchronization, and a user-friendly interface. The app leverages Google Firebase services for authentication, real-time database synchronization, and cloud storage, providing an intuitive messaging platform with advanced features like end-to-end encryption, camera integration, and media sharing capabilities.",
+    "tech": [
+      "Java",
+      "Android",
+      "Android Application",
+      "XML",
+      "Firebase",
+      "Material Design"
+    ],
+    "github": "https://github.com/vivekjutture/ConnectingUs",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/ConnectingUs.webp",
+    "icon": "IoChatbubbles",
+    "category": "Mobile"
+  },
+  {
+    "id": 7,
+    "title": "Affective Computing",
+    "featured": true,
+    "summary": "Multimodal emotion-detection system reaching 90% accuracy across voice, facial expression & text.",
+    "desc": "The Affective Computing project aims to develop advanced emotional intelligence detection capabilities using multimodal techniques, achieving 90% accuracy by extracting emotional data from voice patterns, facial expressions, and text-based data. The project utilizes a combination of speech-to-emotion recognition and natural language processing to detect emotions with high accuracy. The system is designed to analyze and interpret emotional cues from various sources, providing insights into human emotions for applications in customer service, mental health monitoring, and human-computer interaction.",
+    "tech": [
+      "Machine Learning",
+      "AI",
+      "NLP",
+      "Jupyter Notebook",
+      "Python",
+      "FER",
+      "Deepface",
+      "Git",
+      "GitHub"
+    ],
+    "github": "https://github.com/vivekjutture/Affective-Computing",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/Affective%20Computing.webp",
+    "icon": "FcElectronics",
+    "category": "AI/ML"
+  },
+  {
+    "id": 8,
+    "title": "Dharati : The Agri-Hub",
+    "desc": "Dharati : The Agri-Hub is an opinionated Flutter app that provides agricultural assistance through user-friendly features such as phone authentication, dosage calculation, crop management, and marketplace services. The app offers a comprehensive suite of tools for farmers to manage their crops, schedules, and information, while also facilitating the buying and selling of products and farming services.",
+    "tech": [
+      "Dart",
+      "Flutter",
+      "JavaScript",
+      "Git",
+      "GitHub",
+      "Android Application",
+      "Firebase",
+      "Playstore"
+    ],
+    "github": "https://github.com/vivekjutture/Dharati-The-Agri-Hub",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/Dharati.webp",
+    "icon": "PiFarmFill",
+    "category": "Mobile"
+  },
+  {
+    "id": 9,
+    "title": "TicTacGo",
+    "desc": "This TicTacGo game project offers a classic gaming experience with a clean and responsive interface, allowing users to play against each other directly in their browser. The project utilizes vanilla HTML, CSS, and JavaScript, providing a smooth and seamless user experience across desktop and mobile devices.",
+    "tags": ["Vanilla JS"],
+    "tech": ["HTML", "JavaScript", "CSS"],
+    "github": "https://github.com/vivekjutture/TicTacGo",
+    "live": "https://vivekjutture.github.io/TicTacGo/",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/TicTacGo.webp",
+    "icon": "GiTicTacToe",
+    "category": "Web"
+  },
+  {
+    "id": 10,
+    "title": "KeyForge",
+    "desc": "The KeyForge is a modern, high-performance application built using React and Vite, designed to create secure, customizable passwords with an intuitive interface and real-time generation. The project prioritizes security, performance, and user experience, featuring customizable length, flexible character sets, and cryptographically secure password generation using the Web Crypto API.",
+    "tech": [
+      "JavaScript",
+      "React",
+      "Web Crypto API",
+      "Fisher-Yates shuffle algorithm",
+      "Vite",
+      "Tailwind CSS"
+    ],
+    "github": "https://github.com/vivekjutture/KeyForge",
+    "live": "https://vivekjutture.github.io/KeyForge/",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/KeyForge.webp",
+    "icon": "FcPrivacy",
+    "category": "Web"
+  },
+  {
+    "id": 11,
+    "title": "ForexFlow",
+    "desc": "The ForexFlow App is a high-performance Single Page Application (SPA) that demonstrates expertise in React hooks, API integration, and responsive UI development, allowing users to convert currencies in real-time with live exchange rates. This project showcases frontend fundamentals, API consumption, and clean UI logic.",
+    "tech": ["JavaScript", "HTML", "CSS", "React", "Vite", "Tailwind CSS"],
+    "github": "https://github.com/vivekjutture/ForexFlow",
+    "live": "https://vivekjutture.github.io/ForexFlow/",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/ForexFlow.webp",
+    "icon": "FcCurrencyExchange",
+    "category": "Web"
+  },
+  {
+    "id": 12,
+    "title": "ReFocus",
+    "featured": true,
+    "summary": "Android app that curbs short-form-video distractions using only official system APIs — no root, no patching.",
+    "desc": "ReFocus is an Android app designed to reduce distractions from short-form video feeds like YouTube Shorts and Instagram Reels by implementing a focus-first approach, allowing users to consume long-form content intentionally without modifying third-party apps. The app utilizes official Android system APIs and adhering to Google Play Store compliance. This experimental project explores the feasibility of reducing distractions without rooting, patching, or modifying third-party apps, with the goal of promoting intentional content consumption.",
+    "tech": [
+      "Kotlin",
+      "Android Studio",
+      "Jetpack DataStore",
+      "Jetpack Compose",
+      "Gradle"
+    ],
+    "github": "https://github.com/vivekjutture/ReFocus",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/ReFocus.webp",
+    "icon": "RiFocus2Line",
+    "status": "In Development",
+    "category": "Mobile"
+  },
+  {
+    "id": 13,
+    "title": "Java 8 Mastery",
+    "desc": "It is especially useful for those who want to stay interview-ready and revise key topics in a short amount of time. This comprehensive Java 8 Mastery project provides a practical deep dive into core Java 8 features and the Stream API, covering functional programming concepts, lambda expressions, method references, and other essential enhancements. It includes clear examples and demonstrations to help developers write clean, modern, and maintainable code for real-world applications. The project is specifically designed for interview preparation, serving as a quick and effective revision guide. Instead of revisiting multiple books or extensive materials, candidates can use this repository to quickly refresh the most important and commonly asked Java 8 concepts.",
+    "tech": [
+      "Java",
+      "Stream API",
+      "Lambda Expressions",
+      "Functional Interfaces",
+      "Optional Class",
+      "Date and Time API",
+      "Predicate",
+      "Consumer",
+      "Supplier",
+      "Function",
+      "UnaryOperator",
+      "BinaryOperator",
+      "BiPredicate",
+      "BiConsumer",
+      "BiFunction"
+    ],
+    "github": "https://github.com/vivekjutture/Java-8-Mastery",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/Java%208%20Mastery.webp",
+    "icon": "FaJava",
+    "category": "Software"
+  },
+  {
+    "id": 14,
+    "title": "LeetPulse",
+    "featured": true,
+    "summary": "Open-source LeetCode stats REST API on Vercel serverless — it powers the live stats on this very portfolio.",
+    "desc": "LeetPulse is a fast, open-source REST API that fetches LeetCode user data including solved problem statistics, contest ratings, badges, submission history, language usage, and skill tags. Built using Vercel serverless functions and Node.js, the API requires no authentication or API key and provides clean JSON responses through multiple endpoints. The project also includes a responsive frontend with Tailwind CSS for testing and exploring API responses with syntax-highlighted JSON previews, copy-to-clipboard functionality, and mobile-friendly UI. Designed for developers, it allows easy integration of LeetCode data into applications, dashboards, or developer tools.",
+    "tech": [
+      "JavaScript",
+      "Node.js",
+      "Vercel Serverless Functions",
+      "REST API",
+      "LeetCode GraphQL",
+      "HTML",
+      "Tailwind CSS"
+    ],
+    "github": "https://github.com/vivekjutture/LeetPulse",
+    "live": "https://leetpulse-api.vercel.app",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/LeetPulse.webp",
+    "icon": "SiLeetcode",
+    "category": "Web"
+  },
+  {
+    "id": 15,
+    "title": "Planyx",
+    "featured": true,
+    "summary": "AI life-load assistant unifying meal planning, groceries & task prioritisation — multilingual across 18 languages.",
+    "tags": ["Plan Less, Live More ❤️","android/ios","Women's day special ♀️"],
+    "desc": "Planyx - Plan Less, Live More ❤️ is a unified AI life-load assistant designed to reduce the invisible mental burden of everyday planning. It seamlessly integrates meal planning, grocery tracking, and professional task prioritisation into one adaptive system. By learning user habits and adapting to dynamic schedules, Planyx intelligently handles fragmented responsibilities that often feel like a second job. Built with a focus on simplicity, empathy, and efficiency, it transforms scattered planning tasks into a cohesive, intuitive experience, helping users reclaim their time, energy, and mental space. Planyx is also a truly global, multilingual application supporting 18 languages, including 🇬🇧 English, 🇮🇳 Hindi, 🇮🇳 Marathi, 🇮🇳 Tamil, 🇮🇳 Telugu, 🇮🇳 Kannada, 🇮🇳 Malayalam, 🇮🇳 Bengali, 🇮🇳 Gujarati, 🇵🇰 Urdu, 🇫🇷 French, 🇪🇸 Spanish, 🇩🇪 German, 🇯🇵 Japanese, 🇨🇳 Chinese, 🇰🇷 Korean, 🇷🇺 Russian, and 🇸🇦 Arabic making it accessible and inclusive for users worldwide.",
+    "tech": ["Flutter", "Dart", "Firebase", "Authentication", "Firestore"],
+    "github": "https://github.com/vivekjutture/Planyx",
+    "live": "",
+    "image": "https://ik.imagekit.io/vivekjutture/Portfolio/Planyx.webp",
+    "icon": "FaHeart",
+    "iconColor": "text-red-500",
+    "category": "Mobile",
+    "status": "On Hold"
+  }
+]
