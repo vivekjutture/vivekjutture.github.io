@@ -25,9 +25,6 @@ export default defineConfig([
       },
     },
     rules: {
-      // Mark identifiers referenced only in JSX (e.g. `motion` in <motion.div>,
-      // component props like <Icon /> / <EffectWrapper />) as used, so
-      // no-unused-vars doesn't report false positives for them.
       'react/jsx-uses-vars': 'error',
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },

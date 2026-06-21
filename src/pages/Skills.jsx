@@ -85,7 +85,7 @@ const Skills = () => {
       "Discover my technical skills and expertise. Proficient in Java, Spring Boot, React, Python, Machine Learning, and cloud technologies. Full-stack development capabilities.",
     keywords:
       "skills, technical expertise, Java, Spring Boot, React, Python, machine learning, cloud, full-stack",
-    canonical: "https://vivekjutture.com/skills",
+    canonical: "https://www.vivekjutture.com/skills",
     applyOn: "/skills",
   });
   const container = {

@@ -25,9 +25,9 @@ const Typewriter = ({ words, delay = 100, deleteDelay = 50 }) => {
     const atWordStart = reverse && subIndex === 0;
 
     const stepDelay = atWordEnd
-      ? 1200 // pause on the fully typed word
+      ? 1200
       : atWordStart
-        ? 400 // brief pause before the next word
+        ? 400
         : Math.max(reverse ? deleteDelay : delay, parseInt(Math.random() * 350));
 
     const timeout = setTimeout(() => {

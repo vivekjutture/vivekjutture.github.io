@@ -6,7 +6,7 @@ Disallow: /node_modules/
 Crawl-delay: 1
 
 # Sitemaps
-Sitemap: https://vivekjutture.com/sitemap.xml
+Sitemap: https://www.vivekjutture.com/sitemap.xml
 
 # Specific bot rules
 User-agent: Googlebot

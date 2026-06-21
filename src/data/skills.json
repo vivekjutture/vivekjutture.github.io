@@ -13,10 +13,8 @@
   {
     "category": "Databases",
     "items": [
-      { "name": "SQL", "type": "icon", "icon": "FcDatabase" },
       { "name": "MySQL", "icon": "devicon-mysql-plain colored" },
       { "name": "PostgreSQL", "icon": "devicon-postgresql-plain colored" },
-      { "name": "NoSQL", "type": "icon", "icon": "FcDataConfiguration" },
       { "name": "MongoDB", "icon": "devicon-mongodb-plain colored" },
       { "name": "Redis", "icon": "devicon-redis-plain colored" }
     ]

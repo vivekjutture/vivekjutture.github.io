@@ -23,7 +23,7 @@ const Contact = () => {
       "Get in touch with Vivek J. Utture. Reach out for collaboration, mentorship, or inquiries about projects and services.",
     keywords:
       "contact, get in touch, email, inquiry, collaboration, mentorship, connect",
-    canonical: "https://vivekjutture.com/contact",
+    canonical: "https://www.vivekjutture.com/contact",
     applyOn: "/contact",
   });
 

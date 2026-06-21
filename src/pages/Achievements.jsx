@@ -8,7 +8,7 @@ const Achievements = () => {
       "Explore my achievements, awards, and recognition, including problem-solving milestones, mentorship features, and other professional accomplishments.",
     keywords:
       "achievements, awards, recognition, honors, accomplishments, Star of Month, mentorship",
-    canonical: "https://vivekjutture.com/achievements",
+    canonical: "https://www.vivekjutture.com/achievements",
     applyOn: "/achievements",
   });
 

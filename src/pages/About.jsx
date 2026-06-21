@@ -27,7 +27,7 @@ const About = () => {
       "Learn about Vivek J. Utture's background, expertise, and approach to software engineering. Full-stack developer with experience in Java, Spring Boot, React, and cloud technologies.",
     keywords:
       "about, software engineer, Java, Spring Boot, React, backend development, microservices",
-    canonical: "https://vivekjutture.com/about",
+    canonical: "https://www.vivekjutture.com/about",
     applyOn: "/about",
   });
   const aboutCards = [

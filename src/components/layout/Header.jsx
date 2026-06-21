@@ -31,17 +31,12 @@ const Header = () => {
   const currentPathRef = useRef(window.location.pathname);
   const observerRef = useRef(null);
 
-  // Sync the active-nav highlight and close the mobile menu when the router
-  // location changes. Done during render (React's "adjusting state when a value
-  // changes" pattern) instead of an effect, so there's no cascading re-render.
   if (location.pathname !== prevPathname) {
     setPrevPathname(location.pathname);
     setActiveSection(getSectionFromPath(location.pathname));
     if (isOpen) setIsOpen(false);
   }
 
-  // Keep the dedupe ref aligned with the current path (refs are written in
-  // effects, never during render).
   useEffect(() => {
     currentPathRef.current = location.pathname;
   }, [location.pathname]);

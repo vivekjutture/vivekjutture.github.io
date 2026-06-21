@@ -1,18 +1,15 @@
 name: Deploy to GitHub Pages
 
-# Build on every push to main, and allow manual runs from the Actions tab.
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
-# Permissions required by the official GitHub Pages deploy actions.
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Only one Pages deployment at a time; newer pushes cancel in-progress runs.
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -36,8 +33,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      # SPA fallback: GitHub Pages serves 404.html for unknown paths, so a hard
-      # refresh on a deep link (e.g. /projects) loads the app instead of 404ing.
       - name: Add SPA 404 fallback
         run: cp dist/index.html dist/404.html
 

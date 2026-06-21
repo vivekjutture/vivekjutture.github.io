@@ -290,7 +290,7 @@ const Projects = () => {
       "Explore my portfolio of projects including web applications, mobile apps, machine learning systems, and more. See my work with React, Java, Flutter, Python, and various technologies.",
     keywords:
       "projects, portfolio, web development, mobile apps, machine learning, React, Java, Flutter, open source",
-    canonical: "https://vivekjutture.com/projects",
+    canonical: "https://www.vivekjutture.com/projects",
     applyOn: "/projects",
   });
 

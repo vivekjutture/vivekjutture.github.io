@@ -8,7 +8,7 @@ const Education = () => {
       "Learn about my educational background and academic qualifications. Engineering degree with focus on software development and computer science.",
     keywords:
       "education, qualifications, degree, engineering, computer science, academic, learning",
-    canonical: "https://vivekjutture.com/education",
+    canonical: "https://www.vivekjutture.com/education",
     applyOn: "/education",
   });
 

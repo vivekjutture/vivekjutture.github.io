@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Home Page -->
   <url>
-    <loc>https://vivekjutture.com/</loc>
+    <loc>https://www.vivekjutture.com/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,7 +10,7 @@
   
   <!-- About Section -->
   <url>
-    <loc>https://vivekjutture.com/about</loc>
+    <loc>https://www.vivekjutture.com/about</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -18,7 +18,7 @@
   
   <!-- Projects Section -->
   <url>
-    <loc>https://vivekjutture.com/projects</loc>
+    <loc>https://www.vivekjutture.com/projects</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -26,7 +26,7 @@
   
   <!-- Skills Section -->
   <url>
-    <loc>https://vivekjutture.com/skills</loc>
+    <loc>https://www.vivekjutture.com/skills</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -34,7 +34,7 @@
   
   <!-- Experience Section -->
   <url>
-    <loc>https://vivekjutture.com/experience</loc>
+    <loc>https://www.vivekjutture.com/experience</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -42,7 +42,7 @@
   
   <!-- Education Section -->
   <url>
-    <loc>https://vivekjutture.com/education</loc>
+    <loc>https://www.vivekjutture.com/education</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -50,7 +50,7 @@
   
   <!-- Achievements Section -->
   <url>
-    <loc>https://vivekjutture.com/achievements</loc>
+    <loc>https://www.vivekjutture.com/achievements</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -58,7 +58,7 @@
   
   <!-- Contact Section -->
   <url>
-    <loc>https://vivekjutture.com/contact</loc>
+    <loc>https://www.vivekjutture.com/contact</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

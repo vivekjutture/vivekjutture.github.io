@@ -8,7 +8,7 @@ const Experience = () => {
       "Explore my professional experience and career journey as a backend-focused Software Engineer with expertise in backend development, microservices, and scalable systems.",
     keywords:
       "experience, professional, software engineer, backend, microservices, career, employment",
-    canonical: "https://vivekjutture.com/experience",
+    canonical: "https://www.vivekjutture.com/experience",
     applyOn: "/experience",
   });
 

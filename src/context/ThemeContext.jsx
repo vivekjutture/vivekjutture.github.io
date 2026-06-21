@@ -12,7 +12,6 @@ const getInitialTheme = () => {
 export const ThemeProvider = ({ children }) => {
   const [isDark, setIsDark] = useState(getInitialTheme);
 
-  // Only follow the OS preference while the user hasn't made an explicit choice.
   useEffect(() => {
     const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
     const handleChange = (e) => {
@@ -24,13 +23,11 @@ export const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     const root = window.document.documentElement;
-    // Suppress transitions so the light/dark flip is instant (no laggy fade).
     root.classList.add("theme-no-transition");
     root.classList.remove("light", "dark");
     root.classList.add(isDark ? "dark" : "light");
     const meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.setAttribute("content", isDark ? "#020617" : "#fdf8f2");
-    // Re-enable transitions once the new colors have painted.
     const raf = window.requestAnimationFrame(() => {
       window.requestAnimationFrame(() =>
         root.classList.remove("theme-no-transition"),

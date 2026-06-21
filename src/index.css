@@ -6,14 +6,6 @@
   --font-display: "Space Grotesk", system-ui, sans-serif;
 }
 
-/*
-  Semantic theme tokens.
-  Accent = primary (orange in light, sky in dark); accent-2 = gradient partner
-  (amber in light, purple in dark). These remap the violet / fuchsia utility
-  families used across the app and switch automatically via :root / .dark.
-  Dark surfaces remap the slate family (deep-purple ramp); the light page
-  background remaps gray-50 (warm cream).
-*/
 @theme inline {
   --color-violet-300: var(--accent);
   --color-violet-400: var(--accent);
@@ -38,7 +30,6 @@
   --color-gray-50: #fdf8f2;
 }
 
-/* Instant theme switch: suppress transitions during the light/dark flip. */
 .theme-no-transition,
 .theme-no-transition *,
 .theme-no-transition *::before,

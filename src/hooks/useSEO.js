@@ -4,8 +4,8 @@ export const useSEO = ({
   title = "Vivek J. Utture | Software Engineer Portfolio",
   description = "Backend-focused Software Engineer building scalable, production-grade systems that handle 1M+ records with Java, Spring Boot & Microservices.",
   keywords = "software engineer, web developer, full stack developer, React, Java, Python, portfolio",
-  canonical = "https://vivekjutture.com/",
-  ogImage = "https://vivekjutture.com/my-image.webp",
+  canonical = "https://www.vivekjutture.com/",
+  ogImage = "https://www.vivekjutture.com/my-image.webp",
   applyOn,
 } = {}) => {
   useEffect(() => {
