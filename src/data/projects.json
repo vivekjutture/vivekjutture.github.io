@@ -221,7 +221,11 @@
     "title": "Planyx",
     "featured": true,
     "summary": "AI life-load assistant unifying meal planning, groceries & task prioritisation — multilingual across 18 languages.",
-    "tags": ["Plan Less, Live More ❤️","android/ios","Women's day special ♀️"],
+    "tags": [
+      "Plan Less, Live More ❤️",
+      "android/ios",
+      "Women's day special ♀️"
+    ],
     "desc": "Planyx - Plan Less, Live More ❤️ is a unified AI life-load assistant designed to reduce the invisible mental burden of everyday planning. It seamlessly integrates meal planning, grocery tracking, and professional task prioritisation into one adaptive system. By learning user habits and adapting to dynamic schedules, Planyx intelligently handles fragmented responsibilities that often feel like a second job. Built with a focus on simplicity, empathy, and efficiency, it transforms scattered planning tasks into a cohesive, intuitive experience, helping users reclaim their time, energy, and mental space. Planyx is also a truly global, multilingual application supporting 18 languages, including 🇬🇧 English, 🇮🇳 Hindi, 🇮🇳 Marathi, 🇮🇳 Tamil, 🇮🇳 Telugu, 🇮🇳 Kannada, 🇮🇳 Malayalam, 🇮🇳 Bengali, 🇮🇳 Gujarati, 🇵🇰 Urdu, 🇫🇷 French, 🇪🇸 Spanish, 🇩🇪 German, 🇯🇵 Japanese, 🇨🇳 Chinese, 🇰🇷 Korean, 🇷🇺 Russian, and 🇸🇦 Arabic making it accessible and inclusive for users worldwide.",
     "tech": ["Flutter", "Dart", "Firebase", "Authentication", "Firestore"],
     "github": "https://www.github.com/vivekjutture/Planyx",

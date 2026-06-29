@@ -28,7 +28,10 @@ const Typewriter = ({ words, delay = 100, deleteDelay = 50 }) => {
       ? 1200
       : atWordStart
         ? 400
-        : Math.max(reverse ? deleteDelay : delay, parseInt(Math.random() * 350));
+        : Math.max(
+            reverse ? deleteDelay : delay,
+            parseInt(Math.random() * 350),
+          );
 
     const timeout = setTimeout(() => {
       if (atWordEnd) {
@@ -111,7 +114,6 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-
           <h1 className="font-bold font-display mb-6 tracking-tight text-gray-900 dark:text-white">
             <span className="block text-xl md:text-2xl text-gray-500 dark:text-gray-400 mb-2 font-medium">
               Hey, I'm

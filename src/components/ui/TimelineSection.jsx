@@ -194,7 +194,10 @@ const TimelineSection = ({ title, data = [], gradient, variant }) => {
         return ProjectSpotlight;
       case "achievements":
         return (props) => (
-          <NeonPulse {...props} borderGradient="from-violet-400 to-fuchsia-500" />
+          <NeonPulse
+            {...props}
+            borderGradient="from-violet-400 to-fuchsia-500"
+          />
         );
       default:
         return DefaultWrapper;

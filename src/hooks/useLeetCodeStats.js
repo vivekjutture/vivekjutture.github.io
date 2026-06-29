@@ -26,11 +26,11 @@ const fetchLeetCodeStats = async (username) => {
       solved:
         typeof solvedCount === "number"
           ? `${solvedCount.toLocaleString()}+`
-          : fb.solved ?? null,
+          : (fb.solved ?? null),
       rating:
         typeof topPercentage === "number"
           ? `Top ${topPercentage.toFixed(1)}%`
-          : fb.rating ?? null,
+          : (fb.rating ?? null),
       isLive: typeof solvedCount === "number",
       loading: false,
     };

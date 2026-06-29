@@ -140,14 +140,12 @@ const Header = () => {
             <button
               onClick={toggleTheme}
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-slate-800 cursor-pointer focus:outline-none"
-              aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+              aria-label={
+                isDark ? "Switch to light mode" : "Switch to dark mode"
+              }
               title={isDark ? "Switch to light mode" : "Switch to dark mode"}
             >
-              {isDark ? (
-                <FaSun size={20} />
-              ) : (
-                <FaMoon size={20} />
-              )}
+              {isDark ? <FaSun size={20} /> : <FaMoon size={20} />}
             </button>
             <div className="lg:hidden">
               <button

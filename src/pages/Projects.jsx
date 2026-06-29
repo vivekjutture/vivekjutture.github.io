@@ -150,7 +150,8 @@ const ProjectCard = ({ project, onOpen }) => {
     return () => window.removeEventListener("resize", checkTruncation);
   }, [checkTruncation]);
 
-  const showReadMore = isDescTruncated || hiddenTechCount > 0 || !!project.summary;
+  const showReadMore =
+    isDescTruncated || hiddenTechCount > 0 || !!project.summary;
 
   return (
     <ElasticScale className="flex flex-col h-125 cursor-default group">
