@@ -39,7 +39,7 @@ const containerVariants = {
 const itemVariants = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
-  exit: { opacity: 0, y: 30, transition: { duration: 0.3, ease: "easeIn" } }, // Added exit so AnimatePresence works
+  exit: { opacity: 0, y: 30, transition: { duration: 0.3, ease: "easeIn" } },
 };
 
 const iconMap = {
@@ -310,7 +310,6 @@ const Projects = () => {
   }, []);
 
   const filteredProjects = useMemo(() => {
-    // Newest first, then float featured projects to the top.
     let projects = [...projectsData]
       .reverse()
       .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));

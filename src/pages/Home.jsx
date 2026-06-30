@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import Typed from "typed.js";
 import { FaDownload, FaArrowRight, FaEnvelope } from "react-icons/fa";
 import personalInfo from "../data/personal.json";
 import Button from "../components/ui/Button";
@@ -7,56 +8,30 @@ import SocialIcons from "../components/ui/SocialIcons";
 import { useSEO } from "../hooks/useSEO";
 import { useLeetCodeStats } from "../hooks/useLeetCodeStats";
 
-const Typewriter = ({ words, delay = 100, deleteDelay = 50 }) => {
-  const [index, setIndex] = useState(0);
-  const [subIndex, setSubIndex] = useState(0);
-  const [reverse, setReverse] = useState(false);
-  const [blink, setBlink] = useState(true);
+const RoleTyper = ({ words }) => {
+  const el = useRef(null);
 
   useEffect(() => {
-    const timeout2 = setTimeout(() => {
-      setBlink((prev) => !prev);
-    }, 500);
-    return () => clearTimeout(timeout2);
-  }, [blink]);
-
-  useEffect(() => {
-    const atWordEnd = !reverse && subIndex === words[index].length + 1;
-    const atWordStart = reverse && subIndex === 0;
-
-    const stepDelay = atWordEnd
-      ? 1200
-      : atWordStart
-        ? 400
-        : Math.max(
-            reverse ? deleteDelay : delay,
-            parseInt(Math.random() * 350),
-          );
-
-    const timeout = setTimeout(() => {
-      if (atWordEnd) {
-        setReverse(true);
-      } else if (atWordStart) {
-        setReverse(false);
-        setIndex((prev) => (prev + 1) % words.length);
-      } else {
-        setSubIndex((prev) => prev + (reverse ? -1 : 1));
-      }
-    }, stepDelay);
-
-    return () => clearTimeout(timeout);
-  }, [subIndex, index, reverse, words, delay, deleteDelay]);
+    const typed = new Typed(el.current, {
+      strings: words,
+      typeSpeed: 65,
+      backSpeed: 35,
+      backDelay: 1600,
+      startDelay: 300,
+      smartBackspace: true,
+      loop: true,
+      showCursor: false,
+    });
+    return () => typed.destroy();
+  }, [words]);
 
   return (
-    <span className="inline-block min-h-[1.2em]">
-      {words[index].substring(0, subIndex)}
+    <span className="inline-flex items-center justify-center">
+      <span ref={el} className="role-text" />
       <span
-        className={`ml-1 border-r-2 border-violet-500 ${
-          blink ? "opacity-100" : "opacity-0"
-        }`}
-      >
-        &nbsp;
-      </span>
+        aria-hidden="true"
+        className="role-cursor ml-1.5 inline-block w-[3px] h-[1.05em] rounded-full animate-cursor"
+      />
     </span>
   );
 };
@@ -124,8 +99,8 @@ const Home = () => {
             </span>
           </h1>
 
-          <h2 className="text-2xl md:text-3xl font-display text-gray-700 dark:text-gray-300 mb-8 font-light h-16 md:h-auto">
-            <Typewriter words={roles} />
+          <h2 className="text-2xl md:text-4xl font-display font-bold mb-8 h-16 md:h-auto flex items-center justify-center">
+            <RoleTyper words={roles} />
           </h2>
 
           <p className="text-lg md:text-xl font-sans text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">

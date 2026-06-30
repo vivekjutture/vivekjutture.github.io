@@ -116,7 +116,7 @@
     "tags": ["Vanilla JS"],
     "tech": ["HTML", "JavaScript", "CSS"],
     "github": "https://www.github.com/vivekjutture/TicTacGo",
-    "live": "https://vivekjutture.github.io/TicTacGo/",
+    "live": "https://www.vivekjutture.com/TicTacGo/",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/TicTacGo.webp",
     "icon": "GiTicTacToe",
     "category": "Web"
@@ -134,7 +134,7 @@
       "Tailwind CSS"
     ],
     "github": "https://www.github.com/vivekjutture/KeyForge",
-    "live": "https://vivekjutture.github.io/KeyForge/",
+    "live": "https://www.vivekjutture.com/KeyForge/",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/KeyForge.webp",
     "icon": "FcPrivacy",
     "category": "Web"
@@ -145,7 +145,7 @@
     "desc": "The ForexFlow App is a high-performance Single Page Application (SPA) that demonstrates expertise in React hooks, API integration, and responsive UI development, allowing users to convert currencies in real-time with live exchange rates. This project showcases frontend fundamentals, API consumption, and clean UI logic.",
     "tech": ["JavaScript", "HTML", "CSS", "React", "Vite", "Tailwind CSS"],
     "github": "https://www.github.com/vivekjutture/ForexFlow",
-    "live": "https://vivekjutture.github.io/ForexFlow/",
+    "live": "https://www.vivekjutture.com/ForexFlow/",
     "image": "https://ik.imagekit.io/vivekjutture/Portfolio/ForexFlow.webp",
     "icon": "FcCurrencyExchange",
     "category": "Web"
