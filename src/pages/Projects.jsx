@@ -156,9 +156,9 @@ const ProjectCard = ({ project, onOpen }) => {
   return (
     <ElasticScale className="flex flex-col h-125 cursor-default group">
       <div className="h-48 shrink-0 bg-linear-to-br from-gray-100 to-gray-200 dark:from-slate-800 dark:to-slate-900 flex items-center justify-center text-gray-300 relative overflow-hidden rounded-t-2xl group">
-        {project.featured && (
+        {project.topPick && (
           <div className="absolute top-3 left-3 z-10 px-3 py-1 bg-violet-600/90 text-white text-xs font-bold rounded-full shadow-sm backdrop-blur-md flex items-center gap-1">
-            <FaStar size={10} /> Featured
+            <FaStar size={10} /> Top Pick
           </div>
         )}
         {project.status && (
@@ -312,7 +312,7 @@ const Projects = () => {
   const filteredProjects = useMemo(() => {
     let projects = [...projectsData]
       .reverse()
-      .sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+      .sort((a, b) => (b.topPick ? 1 : 0) - (a.topPick ? 1 : 0));
 
     if (activeCategory !== "All") {
       projects = projects.filter(

@@ -52,7 +52,7 @@
   {
     "id": 6,
     "title": "ConnectingUs",
-    "featured": true,
+    "topPick": true,
     "summary": "Real-time Android messaging app on Firebase with authentication, contact sync & media sharing.",
     "desc": "The ConnectingUs is a feature-rich Android messaging application built with Firebase, enabling secure real-time communication with contacts through user authentication, contact synchronization, and a user-friendly interface. The app leverages Google Firebase services for authentication, real-time database synchronization, and cloud storage, providing an intuitive messaging platform with advanced features like end-to-end encryption, camera integration, and media sharing capabilities.",
     "tech": [
@@ -71,7 +71,7 @@
   {
     "id": 7,
     "title": "Affective Computing",
-    "featured": true,
+    "topPick": true,
     "summary": "Multimodal emotion-detection system reaching 90% accuracy across voice, facial expression & text.",
     "desc": "The Affective Computing project aims to develop advanced emotional intelligence detection capabilities using multimodal techniques, achieving 90% accuracy by extracting emotional data from voice patterns, facial expressions, and text-based data. The project utilizes a combination of speech-to-emotion recognition and natural language processing to detect emotions with high accuracy. The system is designed to analyze and interpret emotional cues from various sources, providing insights into human emotions for applications in customer service, mental health monitoring, and human-computer interaction.",
     "tech": [
@@ -153,7 +153,7 @@
   {
     "id": 12,
     "title": "ReFocus",
-    "featured": true,
+    "topPick": true,
     "summary": "Android app that curbs short-form-video distractions using only official system APIs — no root, no patching.",
     "desc": "ReFocus is an Android app designed to reduce distractions from short-form video feeds like YouTube Shorts and Instagram Reels by implementing a focus-first approach, allowing users to consume long-form content intentionally without modifying third-party apps. The app utilizes official Android system APIs and adhering to Google Play Store compliance. This experimental project explores the feasibility of reducing distractions without rooting, patching, or modifying third-party apps, with the goal of promoting intentional content consumption.",
     "tech": [
@@ -198,7 +198,7 @@
   {
     "id": 14,
     "title": "LeetPulse",
-    "featured": true,
+    "topPick": true,
     "summary": "Open-source LeetCode stats REST API on Vercel serverless — it powers the live stats on this very portfolio.",
     "desc": "LeetPulse is a fast, open-source REST API that fetches LeetCode user data including solved problem statistics, contest ratings, badges, submission history, language usage, and skill tags. Built using Vercel serverless functions and Node.js, the API requires no authentication or API key and provides clean JSON responses through multiple endpoints. The project also includes a responsive frontend with Tailwind CSS for testing and exploring API responses with syntax-highlighted JSON previews, copy-to-clipboard functionality, and mobile-friendly UI. Designed for developers, it allows easy integration of LeetCode data into applications, dashboards, or developer tools.",
     "tech": [
@@ -219,7 +219,7 @@
   {
     "id": 15,
     "title": "Planyx",
-    "featured": true,
+    "topPick": true,
     "summary": "AI life-load assistant unifying meal planning, groceries & task prioritisation — multilingual across 18 languages.",
     "tags": [
       "Plan Less, Live More ❤️",
